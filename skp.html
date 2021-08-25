@@ -8,11 +8,17 @@
 
     <title>Fikky Miftakhul Huda | SKP</title>
 
+    <!-- myCSS -->
+    <link rel="stylesheet" href="css/portofolio.css" />
+
     <!-- bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <!-- icon -->
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+
+    <!-- zoom image -->
+    <link href="src/medium-zoom.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -40,75 +46,277 @@
         </div>
       </div>
     </nav>
-    <div class="album py-5 bg-light">
-      <div class="container pt-5 pb-5">
+
+    <div class="container pt-5 mt-5 mb-2"><a href="index.html#portofolio" style="text-decoration: none" class="text-dark">Portofolio</a> / skp</div>
+
+    <div class="album">
+      <div class="container pb-5">
+        <!-- Login -->
         <div class="row">
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/1.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/2.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
+          <h4 class="mt-3">Halaman Awal</h4>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/1.png" data-bs-toggle="modal" data-bs-target="#login" alt="login" height="100%" />
+              <p class="m-3">Halaman Login</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">Lihat</button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/3.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/4.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
+        </div>
+
+        <!-- Halaman Admin -->
+        <div class="row">
+          <h4 class="mt-3">Halaman Admin</h4>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/1.png" data-bs-toggle="modal" data-bs-target="#admin1" alt="admin1" height="100%" />
+              <p class="m-3">Dashboard Admin</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin1">Lihat</button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/5.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/6.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/2.png" data-bs-toggle="modal" data-bs-target="#admin2" alt="admin2" height="100%" />
+              <p class="m-3">Edit Profil Admin</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin2">Lihat</button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/7.jpg" alt="login" height="100%" />
-            </div>
-            <div class="card-body">
-              <p>asdasd</p>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/3.png" data-bs-toggle="modal" data-bs-target="#admin3" alt="admin3" height="100%" />
+              <p class="m-3">Daftar SKP dan File Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin3">Lihat</button>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card shadow-sm">
-              <img src="assets/img/sikeminfo/8.jpg" alt="login" height="100%" />
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/4.png" data-bs-toggle="modal" data-bs-target="#admin4" alt="admin4" height="100%" />
+              <p class="m-3">Daftar SKP berdasarkan tahun</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin4">Lihat</button>
             </div>
-            <div class="card-body">
-              <p>asdasd</p>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/5.png" data-bs-toggle="modal" data-bs-target="#admin5" alt="admin5" height="100%" />
+              <p class="m-3">SKP Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin5">Lihat</button>
             </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/6.png" data-bs-toggle="modal" data-bs-target="#admin6" alt="admin6" height="100%" />
+              <p class="m-3">Data File</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin6">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/7.png" data-bs-toggle="modal" data-bs-target="#admin7" alt="admin7" height="100%" />
+              <p class="m-3">Data Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin7">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/8.png" data-bs-toggle="modal" data-bs-target="#admin8" alt="admin8" height="100%" />
+              <p class="m-3">Data Admin</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin8">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/9.png" data-bs-toggle="modal" data-bs-target="#admin9" alt="admin9" height="100%" />
+              <p class="m-3">Data Unit Kerja</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin9">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/admin/10.png" data-bs-toggle="modal" data-bs-target="#admin10" alt="admin10" height="100%" />
+              <p class="m-3">Jadwal</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#admin10">Lihat</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Halaman Unit kerja -->
+        <div class="row">
+          <h4 class="mt-3">Halaman Unit Kerja</h4>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/unit kerja/1.png" data-bs-toggle="modal" data-bs-target="#uk1" alt="uk1" height="100%" />
+              <p class="m-3">Dashboard Unit Kerja</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uk1">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/unit kerja/2.png" data-bs-toggle="modal" data-bs-target="#uk2" alt="uk2" height="100%" />
+              <p class="m-3">Edit Profil Unit Kerja</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uk2">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/unit kerja/3.png" data-bs-toggle="modal" data-bs-target="#uk3" alt="uk3" height="100%" />
+              <p class="m-3">SKP dan File Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uk3">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/unit kerja/4.png" data-bs-toggle="modal" data-bs-target="#uk4" alt="uk4" height="100%" />
+              <p class="m-3">Data Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uk4">Lihat</button>
+            </div>
+          </div>
+
+        <!-- Halaman Pejabat Penilai -->
+        <div class="row">
+          <h4 class="mt-3">Halaman Pejabat Penilai</h4>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/1.png" data-bs-toggle="modal" data-bs-target="#pj1" alt="pj1" height="100%" />
+              <p class="m-3">Dashboard Pejabat Penilai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj1">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/2.png" data-bs-toggle="modal" data-bs-target="#pj2" alt="pj2" height="100%" />
+              <p class="m-3">Edit Profil Pejabat Penilai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj2">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/3.png" data-bs-toggle="modal" data-bs-target="#pj3" alt="pj3" height="100%" />
+              <p class="m-3">Form SKP</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj3">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/4.png" data-bs-toggle="modal" data-bs-target="#pj4" alt="pj4" height="100%" />
+              <p class="m-3">Pengukuran SKP</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj4">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/5.png" data-bs-toggle="modal" data-bs-target="#pj5" alt="pj5" height="100%" />
+              <p class="m-3">Nilai Perilaku</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj5">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/7.png" data-bs-toggle="modal" data-bs-target="#pj7" alt="pj7" height="100%" />
+              <p class="m-3">Pengukuran SKP</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj7">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/8.png" data-bs-toggle="modal" data-bs-target="#pj8" alt="pj8" height="100%" />
+              <p class="m-3">Nilai Perilaku</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj8">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pejabat penilai/9.png" data-bs-toggle="modal" data-bs-target="#pj9" alt="pj9" height="100%" />
+              <p class="m-3">Data Pegawai Penilaian</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pj9">Lihat</button>
+            </div>
+          </div>
+          
+        <!-- Halaman Pegawai -->
+        <div class="row">
+          <h4 class="mt-3">Halaman Pegawai</h4>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/1.png" data-bs-toggle="modal" data-bs-target="#p1" alt="p1" height="100%" />
+              <p class="m-3">Dashboard Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p1">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/2.png" data-bs-toggle="modal" data-bs-target="#p2" alt="p2" height="100%" />
+              <p class="m-3">Edit Profil Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p2">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/3.png" data-bs-toggle="modal" data-bs-target="#p3" alt="p3" height="100%" />
+              <p class="m-3">SKP Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p3">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/4.png" data-bs-toggle="modal" data-bs-target="#p4" alt="p4" height="100%" />
+              <p class="m-3">File Pegawai</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p4">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/5.png" data-bs-toggle="modal" data-bs-target="#p5" alt="p5" height="100%" />
+              <p class="m-3">Form SKP</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p5">Lihat</button>
+            </div>
+          </div>
+          <div class="col-md-4 rounded">
+            <div class="card m-4 shadow-sm">
+              <img src="assets/img/skp/pegawai/6.png" data-bs-toggle="modal" data-bs-target="#p6" alt="p6" height="100%" />
+              <p class="m-3">Nilai Perilaku</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#p6">Lihat</button>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <div class="card">
+              <img src="assets/img/skp/1.png" alt="login" height="100%" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <p>Pada halaman ini pengguna diharapkan masuk menggunakan NIP dan password yang telah di tentukan di awal dengan menggunakan NIP pengguna untuk passwordnya.</p>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Modal 2 -->
+
+    <!-- Modal 3 -->
+
+    <!-- Modal 4 -->
+
+    <!-- Modal 5 -->
+
+    <!-- Modal 6 -->
+
+    <!-- Modal 7 -->
+
+    <!-- Modal 8 -->
+
+    <!-- script -->
+    <script src="src/medium-zoom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
